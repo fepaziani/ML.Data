@@ -4,7 +4,7 @@ from spacy.training import Example
 import random
 
 # Creates an empty spaCy model
-nlp = spacy.blank("pt")
+nlp = spacy.blank("en")
 
 # Adds the NER component to the pipeline
 ner = nlp.add_pipe("ner", name="custom_ner")
